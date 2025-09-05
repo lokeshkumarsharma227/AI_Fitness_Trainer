@@ -1,0 +1,10 @@
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+pdfplumber
+streamlit
+huggingface-hub
+transformers
+python-dotenv
+tqdm
