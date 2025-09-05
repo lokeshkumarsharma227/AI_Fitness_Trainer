@@ -77,7 +77,7 @@ Answer: Provide a clear, actionable response based on the context above. Include
         chain_type="stuff",
         retriever=retriever,
         chain_type_kwargs={"prompt": prompt},
-        return_source_documents=True,
+        return_source_documents=False,
         verbose=True
     )
     
