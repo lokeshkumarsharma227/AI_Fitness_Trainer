@@ -1,31 +1,32 @@
-🏋️‍♂️ AI Fitness Trainer Agent
+# 🏋️‍♂️ AI Fitness Trainer Agent
 
-An AI-powered fitness coaching agent that helps beginners create personalized workout and nutrition plans.
-Built with Google Gemini, LangChain, RAG, FAISS, and Streamlit, the agent delivers context-aware recommendations from custom fitness datasets.
+An **AI-powered fitness coaching agent** that helps beginners create **personalized workout and nutrition plans**.
+Built with **Google Gemini**, **LangChain**, **RAG**, **FAISS**, and **Streamlit**, the agent delivers **context-aware recommendations** from custom fitness datasets.
 
-🚀 Features
+---
 
-Personalized Coaching – Workout and nutrition plans generated in real-time.
+## 🚀 Features
 
-LLM + RAG – Combines Google Gemini with Retrieval-Augmented Generation for accurate, context-driven responses.
+* **Personalized Coaching** – Workout and nutrition plans generated in real-time.
+* **LLM + RAG** – Combines Google Gemini with Retrieval-Augmented Generation for accurate, context-driven responses.
+* **Vector Search** – FAISS-based vector store for efficient retrieval.
+* **Interactive UI** – Streamlit interface for easy interaction.
+* **Scalable Design** – Modular Python architecture for extensibility.
 
-Vector Search – FAISS-based vector store for efficient retrieval.
+---
 
-Interactive UI – Streamlit interface for easy interaction.
+## 🛠️ Tech Stack
 
-Scalable Design – Modular Python architecture for extensibility.
+* **LLM:** Google Gemini
+* **Frameworks:** LangChain, Streamlit
+* **Vector Store:** FAISS
+* **Language:** Python
 
-🛠️ Tech Stack
+---
 
-LLM: Google Gemini
+## 📂 Project Structure
 
-Frameworks: LangChain, Streamlit
-
-Vector Store: FAISS
-
-Language: Python
-
-📂 Project Structure
+```
 ai-fitness-trainer-agent/
 │── archive_env/        # Archived environment or configs  
 │── data/               # Fitness datasets (workout + nutrition)  
@@ -39,8 +40,13 @@ ai-fitness-trainer-agent/
 │── .gitignore          # Git ignore rules  
 │── README.md           # Project documentation  
 │── .DS_Store           # System file (can be ignored)  
+```
 
-📦 Installation
+---
+
+## 📦 Installation
+
+```bash
 # Clone the repo
 git clone https://github.com/your-username/ai-fitness-trainer-agent.git
 cd ai-fitness-trainer-agent
@@ -52,22 +58,31 @@ venv\Scripts\activate      # Windows
 
 # Install dependencies
 pip install -r requirements.txt
+```
 
-▶️ Usage
+---
+
+## ▶️ Usage
+
+```bash
 # Run the Streamlit app
 streamlit run app.py
+```
 
+Open the URL from the terminal (usually `http://localhost:8501`) to start chatting with the fitness agent.
 
-Open the URL from the terminal (usually http://localhost:8501) to start chatting with the fitness agent.
+---
 
-🎯 Roadmap
+## 🎯 Roadmap
 
- Add progress tracking (weight, goals, workout history).
+* [ ] Add progress tracking (weight, goals, workout history).
+* [ ] Support multimodal input (e.g., check exercise form from images/videos).
+* [ ] Deploy on cloud with authentication and persistent storage.
 
- Support multimodal input (e.g., check exercise form from images/videos).
+---
 
- Deploy on cloud with authentication and persistent storage.
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome. Open a PR or create an issue to get started.
+
+---
